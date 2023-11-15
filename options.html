@@ -1,0 +1,46 @@
+<!-- options.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Note Taker Options</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+    }
+
+    #note-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #save-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    #notes-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .note-item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quick Note Taker Options</h1>
+  <input type="text" id="note-input" placeholder="Enter your note">
+  <button id="save-button">Save Note</button>
+  <ul id="notes-list"></ul>
+
+  <script src="options.js"></script>
+</body>
+</html>
